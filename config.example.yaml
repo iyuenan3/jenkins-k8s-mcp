@@ -1,0 +1,25 @@
+# All values are placeholders. Keep actual configuration and credentials outside Git.
+state_dir: ~/.local/state/jenkins-k8s-mcp
+plan_ttl_seconds: 300
+max_output_bytes: 65536
+http:
+  host: 127.0.0.1
+  port: 8000
+  token_env: MCP_AUTH_TOKEN
+  allowed_hosts: [127.0.0.1, localhost, "[::1]"]
+  allowed_origins: []
+connections:
+  - id: my-jenkins
+    kind: jenkins
+    url: https://jenkins.example.com/
+    username_env: JENKINS_USERNAME
+    token_env: JENKINS_TOKEN
+    timeout_seconds: 30
+    extra_confirmation: false
+  - id: my-cluster
+    kind: kubernetes
+    kubeconfig: ~/.kube/config
+    context: my-context
+    namespace: default
+    timeout_seconds: 30
+    extra_confirmation: false
