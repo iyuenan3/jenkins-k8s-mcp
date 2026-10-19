@@ -1,5 +1,19 @@
 # 里程碑记录
 
+## docs-published · 2026-10-19
+
+### Added
+
+- 将 16 个立项文件形成首个内容提交 [9af2549](https://github.com/iyuenan3/jenkins-k8s-mcp/commit/9af2549c6d9da05854fbf74797b9d6beafdf1194)，并推送至公开仓库的 `main` 分支。
+
+### Changed
+
+- README 补充规划能力、开发入口和当前 pre-code 状态。
+- GitHub About 更新项目描述与 MCP、Jenkins、Kubernetes、DevOps、Python 主题标签。
+- AIREADME 同步锚点使用实际内容提交 SHA，后续同步文档单独提交。
+
+本次发布立项文档，尚无应用实现、安装包或应用版本。
+
 ## repository-created · 2026-10-19
 
 ### Added

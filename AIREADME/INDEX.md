@@ -2,9 +2,9 @@
 
 通用 Jenkins 与 Kubernetes 管理 MCP。生命周期：active；成熟度：pre-code。
 
-last-synced: pre-code · 2026-10-19
+last-synced: 9af2549c6d9da05854fbf74797b9d6beafdf1194 · 2026-10-19
 
-当前成果为立项文档。没有运行代码、真实连接、部署、应用测试或已发布版本。
+当前成果为已公开托管的立项文档。没有运行代码、真实连接、部署、应用测试或已发布的应用版本。
 
 ## 状态
 
@@ -20,7 +20,7 @@ last-synced: pre-code · 2026-10-19
 | CONVENTIONS | ✅ | 默认选型、命名和验证原则 |
 | DECISIONS | ✅ | 本轮产品与架构取舍 |
 | MEMORY | ⚑ | 尚无本项目实现事故，保留后续经验入口 |
-| CHANGELOG | ✅ | 立项里程碑，未发布应用版本 |
+| CHANGELOG | ✅ | 立项与文档发布里程碑，未发布应用版本 |
 
 ## 按任务读
 
